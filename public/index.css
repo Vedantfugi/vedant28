@@ -66,3 +66,79 @@ code {
 .course:hover{
   cursor: pointer;
 }
+.Subtop{
+  display: flex;
+}
+.Subtop img{
+  height: 240px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  margin-top: 56px;
+  margin-left: 130px;
+  height: 360px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;justify-content: center;
+  align-items: center;border: 2px  solid red;border-radius: 26px;
+}
+.Subbottom{
+  display: flex;
+  margin-top: 0px;
+}
+.Subbottom img{
+  height: 240px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
+
+.Subbottom .box2{
+  margin-top: 16px;
+  margin-left: 130px;
+  height: 360px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;justify-content: center;
+  align-items: center;
+  border: 2px  solid red;
+  border-radius: 26px;
+}
+.Subbottom2{
+  display: flex;
+  margin-top: 0px;
+}
+.Subbottom2 img{
+  height: 240px;
+  width: 240px;
+  display: flex;
+  justify-content: center;
+}
+
+.Subbottom2 .box2{
+  margin-top: 16px;
+  margin-left: 130px;
+  height: 360px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;justify-content: center;
+  align-items: center;
+  border: 2px  solid red;
+  border-radius: 26px;
+  background-color: rgb(167, 238, 80);
+}
+
+
+.courses{
+  background:linear-gradient(rgb(37, 213, 222),rgb(217, 237, 67));
+}
+button{
+  height: 40px;
+  width: 140px;
+  background-color: rgb(198, 108, 221);
+  box-shadow: 4px 4px;
+  cursor: pointer;
+}
